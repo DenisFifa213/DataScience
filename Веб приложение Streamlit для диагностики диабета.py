@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier 
 from sklearn.model_selection import train_test_split 
 
-df = pd.read_csv("C:\\Users\\Denis Medvedev\\Downloads\\diabetes.csv")
+df = pd.read_csv("diabetes.csv")
 
 st.title('Определение наличия диабета')
 st.write(df.head())
